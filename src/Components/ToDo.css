@@ -1,0 +1,16 @@
+.ToDo {
+  margin-top: 3rem;
+  background-color: rgb(226, 140, 11);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+button {
+  background-color: rgb(107, 107, 228);
+  color: white;
+  outline: none;
+  border-radius: 0.4rem;
+}

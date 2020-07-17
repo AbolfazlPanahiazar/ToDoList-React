@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './ToDo.css';
 
 function ToDo(props) {
   const [list, setList] = useState([]);
@@ -41,7 +42,7 @@ function ToDo(props) {
   }, [doneList]);
 
   return (
-    <>
+    <div className="ToDo">
       <div style={{ display: "flex", justifyContent: "space-evanly" }}>
         <input value={input} onChange={handleCahnge} type={"text"} />
 
@@ -68,7 +69,7 @@ function ToDo(props) {
           </li>
         ))}
       </ol>
-    </>
+    </div>
   );
 }
 
