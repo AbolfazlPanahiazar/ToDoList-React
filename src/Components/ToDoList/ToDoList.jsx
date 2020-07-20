@@ -2,12 +2,12 @@ import React from "react";
 import ListItem from "../ListItem/ListItem";
 import "./ToDoList.scss";
 
-function ToDoList(props) {
+function ToDoList({ tasks }) {
   return (
     <ul className="ToDoList">
-      <ListItem />
-      <ListItem />
-      <ListItem />
+      {tasks.map((task) => (
+        <ListItem key={task.id} task={task} />
+      ))}
     </ul>
   );
 }
