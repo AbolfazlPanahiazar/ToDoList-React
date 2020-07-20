@@ -10,7 +10,13 @@ function AddForm({ addTaskHandler }) {
 
   return (
     <div className="AddFrom">
-      <button className="AddForm__button" onClick={() => addTaskHandler(inputValue)}>
+      <button
+        className="AddForm__button"
+        onClick={() => {
+          addTaskHandler(inputValue);
+          setInputValue("");
+        }}
+      >
         ایجاد
       </button>
       <input className="AddForm__input" type="text" placeholder="وظیفه جدید ایجاد کنید" value={inputValue} onChange={inputChangeHndler} />

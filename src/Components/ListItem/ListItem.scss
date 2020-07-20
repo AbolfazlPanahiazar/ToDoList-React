@@ -4,6 +4,8 @@
   margin: 0.7rem 0;
   padding: 0.2rem;
   border-bottom: 1px solid rgb(209, 209, 209);
+  display: flex;
+  justify-content: space-between;
 
   &__checkbox {
     margin: 0 0.3rem;
@@ -12,7 +14,6 @@
   &__title {
     font-weight: 600;
     margin: 0 0.3rem;
-    margin-left: 5rem;
     color: #474747;
     @media (max-width: 330px) {
       margin-left: 4rem;
@@ -40,5 +41,9 @@
 
   &__delete {
     background-color: #e74c3c;
+  }
+
+  .done {
+    text-decoration: line-through;
   }
 }

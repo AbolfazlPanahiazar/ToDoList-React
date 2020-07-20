@@ -24,10 +24,22 @@ function ToDo() {
     setTasks(newTasks);
   };
 
+  const deleteItemHendler = (id) => {
+    const newTasks = tasks.filter((task) => task.id !== id);
+    setTasks(newTasks);
+  };
+
+  const toggllTaskHandler = (id) => {
+    const newTasks = [...tasks];
+    const theIndex = newTasks.findIndex((task) => task.id === id);
+    newTasks[theIndex].done = !newTasks[theIndex].done;
+    setTasks(newTasks);
+  };
+
   return (
     <div className="ToDo">
       <AddForm addTaskHandler={addTaskHandler} />
-      <ToDoList tasks={tasks} />
+      <ToDoList tasks={tasks} deleteItemHendler={deleteItemHendler} toggllTaskHandler={toggllTaskHandler} />
     </div>
   );
 }
