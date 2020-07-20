@@ -36,10 +36,22 @@ function ToDo() {
     setTasks(newTasks);
   };
 
+  const changeTaskTitleHandler = (id, newTitle) => {
+    const newTasks = [...tasks];
+    const theIndex = newTasks.findIndex((task) => task.id === id);
+    newTasks[theIndex].title = newTitle;
+    setTasks(newTasks);
+  };
+
   return (
     <div className="ToDo">
       <AddForm addTaskHandler={addTaskHandler} />
-      <ToDoList tasks={tasks} deleteItemHendler={deleteItemHendler} toggllTaskHandler={toggllTaskHandler} />
+      <ToDoList
+        tasks={tasks}
+        deleteItemHendler={deleteItemHendler}
+        toggllTaskHandler={toggllTaskHandler}
+        changeTaskTitleHandler={changeTaskTitleHandler}
+      />
     </div>
   );
 }

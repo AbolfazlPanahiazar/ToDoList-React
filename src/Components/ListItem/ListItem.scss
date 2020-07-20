@@ -20,6 +20,13 @@
     }
   }
 
+  &__input {
+    border: none;
+    padding: 0.4rem 0;
+    text-align: center;
+    border-radius: 0.2rem;
+  }
+
   button {
     margin: 0 0.3rem;
     border: none;
@@ -33,13 +40,21 @@
     &:hover {
       transform: translateY(0.1rem);
     }
+    &:focus {
+      outline: none;
+    }
   }
 
   &__edit {
     background-color: #3498db;
   }
 
-  &__delete {
+  &__save {
+    background-color: #2ecc71;
+  }
+
+  &__delete,
+  &__cancell {
     background-color: #e74c3c;
   }
 
