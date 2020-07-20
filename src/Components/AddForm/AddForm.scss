@@ -16,6 +16,8 @@
   }
 
   &__button {
+    background-color: #2ecc71;
+    color: #ffffff;
     font-family: Vazir;
     font-size: 1rem;
     padding: 0.3rem;
@@ -24,11 +26,15 @@
     border-radius: 0.3rem;
     border: none;
     cursor: pointer;
+    transition: all 0.2s;
     @media (max-width: 330px) {
       min-width: 50px;
     }
     &:focus {
       outline: none;
+    }
+    &:hover {
+      background-color: #24b15f;
     }
   }
 }
