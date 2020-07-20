@@ -14,14 +14,16 @@ function ToDo() {
   }, [tasks]);
 
   const addTaskHandler = (title) => {
-    const newTask = {
-      id: Date.now(),
-      title: title,
-      done: false,
-    };
-    const newTasks = [...tasks];
-    newTasks.push(newTask);
-    setTasks(newTasks);
+    if (title) {
+      const newTask = {
+        id: Date.now(),
+        title: title,
+        done: false,
+      };
+      const newTasks = [...tasks];
+      newTasks.push(newTask);
+      setTasks(newTasks);
+    }
   };
 
   const deleteItemHendler = (id) => {
