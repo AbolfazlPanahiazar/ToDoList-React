@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AddForm from "../AddForm/AddForm";
 import ToDoList from "../ToDoList/ToDoList";
+import ClearButton from "../DeleteButton/ClearButton";
 import "./ToDo.scss";
 
 function ToDo() {
@@ -45,9 +46,14 @@ function ToDo() {
     setTasks(newTasks);
   };
 
+  const cleanAllTasks = () => {
+    setTasks([]);
+  };
+
   return (
     <div className="ToDo">
       <AddForm addTaskHandler={addTaskHandler} />
+      <ClearButton cleanAllTasks={cleanAllTasks} />
       <ToDoList
         tasks={tasks}
         deleteItemHendler={deleteItemHendler}

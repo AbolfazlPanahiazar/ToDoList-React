@@ -1,0 +1,24 @@
+.ClearButton {
+  background-color: #e74c3c;
+  color: #ffffff;
+  font-family: Vazir;
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.3rem;
+  min-width: 60px;
+  margin-right: 0.1rem;
+  border-radius: 0.3rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin: 0.5rem auto;
+  @media (max-width: 330px) {
+    min-width: 50px;
+  }
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: #c43b2c;
+  }
+}
