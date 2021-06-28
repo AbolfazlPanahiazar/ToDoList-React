@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/HomeMade-ReactToDoList/static/css/main.35796b7e.chunk.css",
-    "main.js": "/HomeMade-ReactToDoList/static/js/main.6fcae69b.chunk.js",
-    "main.js.map": "/HomeMade-ReactToDoList/static/js/main.6fcae69b.chunk.js.map",
-    "runtime-main.js": "/HomeMade-ReactToDoList/static/js/runtime-main.6f1b18b5.js",
-    "runtime-main.js.map": "/HomeMade-ReactToDoList/static/js/runtime-main.6f1b18b5.js.map",
-    "static/js/2.5870d411.chunk.js": "/HomeMade-ReactToDoList/static/js/2.5870d411.chunk.js",
-    "static/js/2.5870d411.chunk.js.map": "/HomeMade-ReactToDoList/static/js/2.5870d411.chunk.js.map",
-    "index.html": "/HomeMade-ReactToDoList/index.html",
-    "precache-manifest.8241ccf7ad20384bb75dea70e8d1fb77.js": "/HomeMade-ReactToDoList/precache-manifest.8241ccf7ad20384bb75dea70e8d1fb77.js",
-    "service-worker.js": "/HomeMade-ReactToDoList/service-worker.js",
-    "static/css/main.35796b7e.chunk.css.map": "/HomeMade-ReactToDoList/static/css/main.35796b7e.chunk.css.map",
-    "static/js/2.5870d411.chunk.js.LICENSE.txt": "/HomeMade-ReactToDoList/static/js/2.5870d411.chunk.js.LICENSE.txt",
-    "static/media/background.jpg": "/HomeMade-ReactToDoList/static/media/background.3b8334e4.jpg"
+    "main.css": "/ToDoList-React/static/css/main.35796b7e.chunk.css",
+    "main.js": "/ToDoList-React/static/js/main.9679e4fe.chunk.js",
+    "main.js.map": "/ToDoList-React/static/js/main.9679e4fe.chunk.js.map",
+    "runtime-main.js": "/ToDoList-React/static/js/runtime-main.50fe0fd7.js",
+    "runtime-main.js.map": "/ToDoList-React/static/js/runtime-main.50fe0fd7.js.map",
+    "static/js/2.5870d411.chunk.js": "/ToDoList-React/static/js/2.5870d411.chunk.js",
+    "static/js/2.5870d411.chunk.js.map": "/ToDoList-React/static/js/2.5870d411.chunk.js.map",
+    "index.html": "/ToDoList-React/index.html",
+    "precache-manifest.fab2f13e707bff4e43416650273f4418.js": "/ToDoList-React/precache-manifest.fab2f13e707bff4e43416650273f4418.js",
+    "service-worker.js": "/ToDoList-React/service-worker.js",
+    "static/css/main.35796b7e.chunk.css.map": "/ToDoList-React/static/css/main.35796b7e.chunk.css.map",
+    "static/js/2.5870d411.chunk.js.LICENSE.txt": "/ToDoList-React/static/js/2.5870d411.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/ToDoList-React/static/media/background.3b8334e4.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6f1b18b5.js",
+    "static/js/runtime-main.50fe0fd7.js",
     "static/js/2.5870d411.chunk.js",
     "static/css/main.35796b7e.chunk.css",
-    "static/js/main.6fcae69b.chunk.js"
+    "static/js/main.9679e4fe.chunk.js"
   ]
 }
